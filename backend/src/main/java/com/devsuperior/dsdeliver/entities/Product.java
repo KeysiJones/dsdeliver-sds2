@@ -11,7 +11,7 @@ import javax.persistence.Table;
 @Entity
 //Nome da tabela no banco
 @Table(name = "tb_product")
-public class Product implements Serializable{
+public class Product implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -25,6 +25,10 @@ public class Product implements Serializable{
     private String description;
     private String imageUri;
 
+    public Product() {
+
+    }
+    
     public Product(Long id, String name, Double price, String description, String imageUri) {
         super();
         this.id = id;
