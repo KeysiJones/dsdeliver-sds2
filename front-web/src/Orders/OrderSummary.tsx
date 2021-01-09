@@ -19,7 +19,7 @@ function OrderSummary({amount, totalPrice, onSubmit} : Props) {
                     </span>
                     <span className="order-summary-total">
                         <strong className="amount-selected">{formatPrice(totalPrice)}</strong>
-                        VALOR TOTAl
+                        VALOR TOTAL
                     </span>
                 </div>
                 <button 
